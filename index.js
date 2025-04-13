@@ -10,8 +10,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://cuisinecraft-hub-restaurant.web.app",
-      "https://cuisinecraft-hub-restaurant.firebaseapp.com/",
+      "https://cuisinecraft-hub-restaurant-client-4i8t.vercel.app",
+      "cuisinecraft-hub-restaurant-client-4i8t-7lxrdqodo.vercel.app",
     ],
     credentials: true,
   })
@@ -26,7 +26,7 @@ app.use(
         scriptSrc: ["'self'", "'unsafe-inline'"],
         frameAncestors: ["'self'"],
         formAction: ["'self'"],
-        connectSrc: ["'self'", "https://group-study-assignment-a7832.web.app"],
+        connectSrc: ["'self'", "https://cuisinecraft-hub-restaurant-client-4i8t.vercel.app","cuisinecraft-hub-restaurant-client-4i8t-7lxrdqodo.vercel.app"],
       },
     },
   })
